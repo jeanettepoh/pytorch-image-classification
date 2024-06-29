@@ -151,4 +151,4 @@ if __name__ == "__main__":
 
     data_transformation_config = DataTransformationConfig()
     data_transformation = DataTransformation(data_transformation_config, data_ingestion_artifact)
-    data_ingestion_artifact = data_transformation.initiate_data_transformation()
+    data_transformation_artifact = data_transformation.initiate_data_transformation()
